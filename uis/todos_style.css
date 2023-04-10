@@ -1,0 +1,47 @@
+ToDo {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+
+
+AddToDo {
+    layout: horizontal;
+    dock: bottom;
+    height: 5;
+    margin: 1;
+    min-width: 50;
+    padding: 1;
+}
+
+#on_label {
+    display: none;
+}
+
+#todo_content {
+    content-align: center middle;
+    text-opacity: 60%;
+    height: 3;
+}
+
+Button {
+    width: 5;
+}
+
+#done {
+    dock: left;
+}
+
+#del {
+    dock: right;
+
+}
+
+#add {
+    dock: left;
+}
+
+#input {}
